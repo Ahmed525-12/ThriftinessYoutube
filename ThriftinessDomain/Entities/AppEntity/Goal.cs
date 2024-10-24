@@ -10,5 +10,7 @@ namespace ThriftinessDomain.Entities.AppEntity
     {
         public string Title { get; set; }
         public double MoneyAmount { get; set; }
+
+        public string UserId { get; set; }
     }
 }
